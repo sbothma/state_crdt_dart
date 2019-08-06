@@ -1,0 +1,14 @@
+name: state_crdt
+version: 0.0.1
+author: Stephan Bothma <sbothma@protonmail.com>
+description: An abstract CRDT implementation in Dart
+homepage: https://github.com/sbothma/state_crdt.dart
+
+environment:
+  sdk: '>=2.2.0 <3.0.0'
+
+dependencies:
+  uuid: ^2.0.1
+
+dev_dependencies:
+  test: ^1.0.0
