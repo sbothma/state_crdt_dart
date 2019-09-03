@@ -179,4 +179,8 @@ abstract class StateCRDT {
     a.previous[b.state_hash] = b;
     return a;
   }
+
+  static String toDateString(DateTime d) {
+    return d?.toIso8601String()?.substring(0, 19)?.replaceFirst('T', ' ');
+  }
 }
