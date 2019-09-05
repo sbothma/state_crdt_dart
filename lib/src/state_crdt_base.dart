@@ -98,6 +98,7 @@ abstract class StateCRDT {
   ///
   void init() {
     this.created_at = DateTime.now();
+    this.updated_at = created_at;
     this.state_hash = make_id();
     this.previous ??= {};
   }
